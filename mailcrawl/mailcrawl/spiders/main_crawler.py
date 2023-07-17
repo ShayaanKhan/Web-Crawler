@@ -8,5 +8,5 @@ class CrawlingSpider(CrawlSpider):
     start_urls = ["http://books.toscrape.com/"]
 
     rules = (
-        Rule(LinkExtractor(allow="catalogue/category"))
+        Rule(LinkExtractor(allow="catalogue/category")),
     )
