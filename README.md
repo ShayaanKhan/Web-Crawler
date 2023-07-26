@@ -2,6 +2,12 @@
 Its a webcrawler for finding any and all emails present on a website.
 The user can set the starting page of a defined domain for the crawler to begin and it traverses all links within the domain.
 
+PRE REQUISITES:
+1. Have scrapy installed.
+2. Have pandas installed (for optional duplicate remover)
+3. Have re installed.
+4. Have the latest version of python installed.
+
 The crawler can be used through the command prompt or a terminal of an IDE such as VScode. The following steps provided below are for vscode:
 1. Once the repository has been cloned onto the system, open the folder in vs code.
 2. Open the terminal and navigate to the corrcet subfolder ( cd .\mailcrawl\mailcrawl\spiders)
