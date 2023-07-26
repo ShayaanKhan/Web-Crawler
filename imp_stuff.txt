@@ -1,5 +1,0 @@
-https://www.youtube.com/watch?v=m_3gjHGxIJc
-yt vid for web crawling
-
-https://books.toscrape.com/
-sample website for crawling
