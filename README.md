@@ -10,7 +10,7 @@ PRE REQUISITES:
 
 The crawler can be used through the command prompt or a terminal of an IDE such as VScode. The following steps provided below are for vscode:
 1. Once the repository has been cloned onto the system, open the folder in vs code.
-2. Open the terminal and navigate to the corrcet subfolder ( cd .\mailcrawl\mailcrawl\spiders)
+2. Open the terminal and navigate to the corrcet subfolder ( cd .\mailcrawl\spiders)
 3. Now you can run the spider from the terminal using th following command: scrapy runspider main_crawler.py -o output.csv
 4. The results are saved in a cvs file within the spiders folder.
 
