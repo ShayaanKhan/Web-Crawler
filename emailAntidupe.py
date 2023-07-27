@@ -1,7 +1,7 @@
 import pandas as pd
 import os
-file_name = "mailcrawl\mailcrawl\spiders\output.csv"
-file_name_output = "mailcrawl\mailcrawl\spiders\output1.csv"
+file_name = "mailcrawl\spiders\output.csv"
+file_name_output = "mailcrawl\spiders\output1.csv"
 
 df = pd.read_csv(file_name, sep="\t or ,")
 
@@ -16,4 +16,4 @@ df.drop_duplicates(subset=None, inplace=True)
 # Write the results to a different file
 df.to_csv(file_name_output, index=False)
 
-os.remove("mailcrawl\mailcrawl\spiders\output.csv")
+os.remove("mailcrawl\spiders\output.csv")
